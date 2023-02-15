@@ -1,0 +1,40 @@
+
+.card{
+margin-bottom: 20px;
+padding-top: 14px;
+background-color: #262830;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+.card > img{
+    object-fit: cover !important;
+    opacity: 0.9;
+    border:0.5px solid white;
+      border-radius: 5px;
+   
+}
+.card > img:hover{
+    opacity:0.6;
+    transition: ease-in 0.25s;
+}
+.linkText{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+filter: drop-shadow(7px 5px 5px rgb(0, 0, 0));
+text-decoration: none;
+color: #d3d3fc;
+}
+.linkText:hover{
+    color: aqua;
+    transition: ease-in 0.25s;
+}
+.techHead{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+}
+.card> .card-text{
+    font-size: 2rem;
+}
+.card> .cardBody{
+    padding: 5px !important;
+    padding-top: 5px !important;
+}

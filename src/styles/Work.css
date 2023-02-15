@@ -1,0 +1,9 @@
+.status{
+    background-color: rgb(152, 196, 152);
+    color: green;
+    height: 23px;
+    width: 112px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+}

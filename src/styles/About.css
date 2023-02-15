@@ -1,0 +1,46 @@
+
+.about{
+   margin-top: 10rem;
+   padding-top: 8rem;
+    padding-bottom: 5rem;
+    
+}
+.desig{
+    font-size: 1.8rem;
+}
+.aboutHead{
+    -webkit-filter: drop-shadow(4px 4px 4px #222);
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    text-align:left;font-weight:700;font-size:2.3rem
+}
+@media (max-width: 576px){
+    .about{
+        padding-top: 0.5rem;
+      }
+      .aboutHead{
+        text-align:center;font-weight:700;font-size:2rem
+      }
+      .desig{
+        font-size: 1.15rem;
+        text-align: left;
+        color: white;
+      }
+      .desig2{
+        font-size: 0.8rem;
+        text-align: left;
+        color: white;
+      }
+      .desig3{
+        font-size: 0.75rem;
+        text-align: right;
+        color: white;
+      }
+      
+      }
+  
+@media (min-width: 1280px){
+.max-width {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+}

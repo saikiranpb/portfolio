@@ -1,0 +1,36 @@
+.imgIcon{
+    height:4.688rem;
+    width: auto;
+    -webkit-filter: drop-shadow(4px 4px 4px #222);
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+.imgIcon2{
+    height:4rem;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
+}
+.techHead{
+    text-align:left;
+    font-weight:600;
+    font-size:2.3rem;
+}
+.techText{
+    text-align:left;
+}
+@media (max-width: 576px){
+    .imgIcon {
+        height:3rem;
+    }
+    .imgIcon2 {
+        height:2rem;
+    }
+    .techHead{
+        text-align:center;
+        font-weight:600;
+        font-size:2.1rem;
+    }
+    .techText{
+        text-align:center;
+    }
+}

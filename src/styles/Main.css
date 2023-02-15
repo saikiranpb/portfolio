@@ -1,0 +1,5 @@
+.main{
+    /* background: linear-gradient(180deg, rgba(220, 220 ,220,1) 0%, rgba(161,161,161,1)  53%) !important; */
+    background-image: linear-gradient(to right, #747474 0%, rgb(45, 45, 45) 100%);
+    padding-top: 7rem;
+}

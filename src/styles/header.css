@@ -1,0 +1,13 @@
+.mainIcon{
+    font-size: 3.125rem;
+    color: rgb(101, 101, 101) !important;
+    font-weight: bold;
+  }
+.navList{
+  font-size: '50px';
+  color: white !important;
+}
+.navbar{
+  /* background: linear-gradient(180deg, rgba(161,161,161,1) 0%, rgba(210,210,210,1) 53%); */
+  background-image: linear-gradient(to right, #989898 0%, rgb(65, 65, 65) 100%);
+}
